@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
 body{
 	font-family: 'Roboto', sans-serif;
 }
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -13,10 +16,10 @@ i {
 /*----------bootstrap-navbar-css------------*/
 .navbar-logo{
 	padding: 15px;
-	color: #06113C;
+	color: white;
 }
 .navbar-mainbg{
-	background-color: #46CDCF;
+	background-color: #1b1e24;
 	padding: 0px;
 }
 #navbarSupportedContent{
@@ -35,7 +38,7 @@ i {
 	float: left;
 }
 #navbarSupportedContent ul li a{
-	color: #06113C;
+	color: #46CDCF;
     text-decoration: none;
     font-size: 15px;
     display: block;
@@ -73,7 +76,7 @@ i {
 	left: 0px;
 	transition-duration:0.6s;
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	background-color: #fff;
+	background-color: white;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	margin-top: 10px;
@@ -83,7 +86,7 @@ i {
 	position: absolute;
 	width: 25px;
 	height: 25px;
-	background-color: #fff;
+	background-color: white;
 	bottom: 10px;
 }
 .hori-selector .right{
@@ -99,7 +102,7 @@ i {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #46CDCF;
+    background-color: #1b1e24;
 }
 .hori-selector .right:before{
 	bottom: 0;
@@ -168,8 +171,6 @@ i {
 
 
 
-
-
 /* sensorvalues */
 div.table-title {
     display: block;
@@ -193,7 +194,7 @@ div.table-title {
  /*** Table Styles **/
  
  .table-fill {
-   background: white;
+   background: 9dd9e7;
    border-radius:3px;
    border-collapse: collapse;
    height: 320px;
@@ -206,13 +207,13 @@ div.table-title {
  }
   
  th {
-   color:#D5DDE5;;
+   color:#9dd9e7;;
    background:#1b1e24;
    border-bottom:4px solid #9ea7af;
    border-right: 1px solid #343a45;
-   font-size:23px;
+   font-size:20px;
    font-weight: 100;
-   padding:24px;
+   padding:20px;
    text-align:left;
    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
    vertical-align:middle;
@@ -235,7 +236,9 @@ div.table-title {
    font-weight:normal;
    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
  }
-  
+ 
+
+
  tr:hover td {
    background:#4E5066;
    color:#FFFFFF;
@@ -258,13 +261,33 @@ div.table-title {
    background:#4E5066;
  }
  
- tr:last-child td:first-child {
+ .card tr:last-child td:first-child {
    border-bottom-left-radius:3px;
+   background-color: rgb(254, 85, 85);
+   color: white;
  }
   
- tr:last-child td:last-child {
+ .card tr:last-child td:last-child {
    border-bottom-right-radius:3px;
+   background-color: rgb(254, 85, 85);
+   color: white;
  }
+
+ .card .carda tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+  background-color: rgb(82, 201, 82);
+  color: white;
+}
+ 
+.card .carda tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+  background-color: rgb(82, 201, 82);
+  color: white;
+  
+}
+
+
+
   
  td {
    background:#FFFFFF;
@@ -312,7 +335,7 @@ div.table-title {
  }
 
  .flex-container {
-	 background-color: #f3ac5b;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -330,5 +353,9 @@ div.table-title {
 
   }
 
-  
- 
+
+
+
+
+
+
